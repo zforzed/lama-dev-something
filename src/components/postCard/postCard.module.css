@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.top {
+  display: flex;
+}
+
+.imgContainer {
+  position: relative;
+  height: 400px;
+  width: 90%;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.date {
+  font-size: 12px;
+  transform: rotate(270deg);
+  margin: auto;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  width: 90%;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.desc {
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: gray;
+  width: 90%;
+  text-indent: 1ch;
+}
+.desc::first-letter {
+  text-transform: capitalize;
+}
+.link {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
